@@ -1,5 +1,8 @@
 import cv2
 
+#Use 0 for webcam
+#vid = cv2.VideoCapture(0)
+
 vid = cv2.VideoCapture("AnthonyShkraba.mp4")
 
 if(vid.isOpened()==False):
