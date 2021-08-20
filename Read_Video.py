@@ -26,7 +26,7 @@ while(True):
 
     cv2.imshow("Web cam", frame)
     out.write(frame)
-    if cv2.waitKey(25) & 0xFF == ord('q'):
+    if cv2.waitKey(25) == 32:
         break
 
 vid.release()
